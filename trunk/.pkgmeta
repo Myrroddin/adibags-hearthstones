@@ -1,7 +1,4 @@
 package-as: "AdiBags_Hearthstones"
 
-ignore:
-    - supported_items.md
-
 required-dependencies:
     - adibags
