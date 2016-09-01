@@ -35,26 +35,30 @@ Includes Rings, Neck Items, and Trinkets
 1. Blessed Medallion of Karabor 32757
 2. Empowered Ring of the Kirin Tor 139599
 3. Etched Ring of the Kirin Tor 48956
-4. Frostwolf Insignia Rank 1 17690
-5. Frostwolf Insignia Rank 2 17905
-6. Frostwolf Insignia Rank 3 17906
-7. Frostwolf Insignia Rank 4 17907
-8. Frostwolf Insignia Rank 5 17908
-9. Frostwolf Insignia Rank 6 17909
-10. Inscribed Ring of the Kirin Tor 45690
-11. Pit Fighter's Punching Ring (Bizmo's Brawlpub) 118907
-12. Pit Fighter's Punching Ring (Brawl'gar Arena) 118908
-13. Ring of the Kirin Tor 44935
-14. Runed Ring of the Kirin Tor 51559
-15. Stormpike Insignia Rank 1 17691
-16. Stormpike Insignia Rank 2 17900
-17. Stormpike Insignia Rank 3 17901
-18. Stormpike Insignia Rank 4 17902
-19. Stormpike Insignia Rank 5 17903
-20. Stormpike Insignia Rank 6 17904
-21. The Brassiest Knuckle (Bizmo's Brawlpub) 95051
-22. The Brassiest Knuckle (Brawl'gar Arena) 95050
-23. Time-Lost Artifact 103678
+4. Etched Signet of the Kirin Tor 48957
+5. Frostwolf Insignia Rank 1 17690
+6. Frostwolf Insignia Rank 2 17905
+7. Frostwolf Insignia Rank 3 17906
+8. Frostwolf Insignia Rank 4 17907
+9. Frostwolf Insignia Rank 5 17908
+10. Frostwolf Insignia Rank 6 17909
+11. Inscribed Ring of the Kirin Tor 45690
+12. Inscribed Signet of the Kirin Tor 45691
+13. Pit Fighter's Punching Ring (Bizmo's Brawlpub) 118907
+14. Pit Fighter's Punching Ring (Brawl'gar Arena) 118908
+15. Ring of the Kirin Tor 44935
+16. Runed Ring of the Kirin Tor 51559
+17. Runed Signet of the Kirin Tor 51557
+18. Signet of  the Kirin Tor 40585
+19. Stormpike Insignia Rank 1 17691
+20. Stormpike Insignia Rank 2 17900
+21. Stormpike Insignia Rank 3 17901
+22. Stormpike Insignia Rank 4 17902
+23. Stormpike Insignia Rank 5 17903
+24. Stormpike Insignia Rank 6 17904
+25. The Brassiest Knuckle (Bizmo's Brawlpub) 95051
+26. The Brassiest Knuckle (Brawl'gar Arena) 95050
+27. Time-Lost Artifact 103678
 
 ## Quest Items (usually one use only)
 1. Gidwin's Hearthstone 61379
