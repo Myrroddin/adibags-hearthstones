@@ -9,6 +9,13 @@ local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
 local L = addon.L
 local MatchIDs
 local Tooltip
+local Result = {}
+
+local function AddToSet(Set, List)
+	for _, v in ipairs(List) do
+		Set[v] = true
+	end
+end
 
 -- the list of items, toys, cloaks, etc
 local hearthstones = {
@@ -101,7 +108,7 @@ local toys = {
 }
 
 local function MatchIDs_Init(self)
-	local Result = {}
+	wipe(Result)
 	
 	AddToSet(Result, hearthstones)
 	
@@ -141,12 +148,6 @@ local function Tooltip_Init()
 	return tip
 end
  
-local function AddToSet(Set, List)
-	for _, v in ipairs(List) do
-		Set[v] = true
-	end
-end
-
 local setFilter = AdiBags:RegisterFilter("Hearthstones", 92, "ABEvent-1.0")
 setFilter.uiName = TUTORIAL_TITLE31
 setFilter.uiDesc = L["Items that hearth you to various places."]
