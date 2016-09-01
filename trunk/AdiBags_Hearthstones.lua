@@ -65,6 +65,10 @@ local jewelry = {
 	17902,		-- Stormpike Insignia Rank 4
 	17903,		-- Stormpike Insignia Rank 5
 	17904,		-- Stormpike Insignia Rank 6
+	51557,		-- Runed Signet of the Kirin Tor
+	45691,		-- Inscribed Signet of the Kirin Tor
+	40585,		-- Signet of the Kirin Tor
+	48957,		-- Etched Signet of the Kirin Tor
 }
 
 local quest_items = {
