@@ -10,60 +10,115 @@ local L = addon.L
 local MatchIDs
 local Tooltip
 
+-- the list of items, toys, cloaks, etc
+local hearthstones = {
+	128353,		-- Admiral's Compass
+	140192,		-- Dalaran Hearthstone
+	37863,		-- Direbrew's Remote
+	110560,		-- Garrison Hearthstone
+	6948,		-- Hearthstone
+	52251,		-- Jaina's Locket
+	58487,		-- Potion of Deepholm
+	118663,		-- Relic of Karabor
+	64457,		-- The Last Relic of Argus
+}
+
+local armour = {
+	46874,		-- Argent Crusader's Tabard
+	63379,		-- Baradin's Wardens Tabard
+	63378,		-- Hellscream's Reach Tabard
+	22632,		-- Atiesh, Greatstaff of the Guardian (Druid)
+	22589,		-- Atiesh, Greatstaff of the Guardian (Mage)
+	22631,		-- Atiesh, Greatstaff of the Guardian (Priest)
+	22630,		-- Atiesh, Greatstaff of the Guardian (Warlock)
+	50287,		-- Boots of the Bay
+	65274,		-- Cloak of Coordination: Orgrimmar
+	65360,		-- Cloak of Coordination: Stormwind
+	28585,		-- Ruby Slippers
+	63353,		-- Shroud of Cooperation: Orgrimmar
+	63352,		-- Shroud of Cooperation: Stormwind
+	63207,		-- Wrap of Unity: Orgrimmar
+	63206,		-- Wrap of Unity: Stormwind
+}
+
+local jewelry = {
+	32757,		-- Blessed Medallion of Karabor
+	139599,		-- Empowered Ring of the Kirin Tor
+	48956,		-- Etched Ring of the Kirin Tor
+	45690,		-- Inscribed Ring of the Kirin Tor
+	44935,		-- Ring of the Kirin Tor
+	51559,		-- Runed Ring of the Kirin Tor
+	118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
+	95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
+	118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
+	95050,		-- The Brassiest Knuckle (Brawl'gar Arena)
+	103678,		-- Time-Lost Artifact
+	17690,		-- Frostwolf Insignia Rank 1
+	17905,		-- Frostwolf Insignia Rank 2
+	17906,		-- Frostwolf Insignia Rank 3
+	17907,		-- Frostwolf Insignia Rank 4
+	17908,		-- Frostwolf Insignia Rank 5
+	17909,		-- Frostwolf Insignia Rank 6
+	17691,		-- Stormpike Insignia Rank 1
+	17900,		-- Stormpike Insignia Rank 2
+	17901,		-- Stormpike Insignia Rank 3
+	17902,		-- Stormpike Insignia Rank 4
+	17903,		-- Stormpike Insignia Rank 5
+	17904,		-- Stormpike Insignia Rank 6
+}
+
+local quest_items = {
+	61379,		-- Gidwin's Hearthstone
+	68808,		-- Hero's Hearthstone
+	68809,		-- Veteran's Hearthstone
+	92510,		-- Vol'jin's Hearthstone
+}
+
+local scrolls = {
+	48248,		-- Scroll of Recall
+	60336,		-- Scroll of Recall II
+	60337,		-- Scroll of Recall III
+}
+
+local toys = {
+	93672,		-- Dark Portal
+	36954,		-- Dimensional Ripper - Area 52
+	23486,		-- Dimensional Ripper - Everlook
+	54452,		-- Ethereal Portal
+	64488,		-- Innkeeper's Daughter
+	95567,		-- Kirin Tor Beacon
+	95568,		-- Sunreaver Beacon
+	43824,		-- The Schools of Arcane Magic - Mastery
+	23489,		-- Ultrasafe Transporter - Gadgetzan
+	36955,		-- Ultrasafe Transporter - Toshley's Station
+	112059,		-- Wormhole Centrifuge
+	48933,		-- Wormhole Generator: Northrend
+	87215,		-- Wormhole Generator: Pandaria
+}
+
 local function MatchIDs_Init(self)
 	local Result = {}
 	
-	local IDs = {
-		128353,			-- Admiral's Compass
-		140192,			-- Dalaran Hearthstone
-		110560,			-- Garrison Hearthstone
-		6948,			-- Hearthstone
-		118663,			-- Relic of Karabor
-	}
-	AddToSet(Result, IDs)
+	AddToSet(Result, hearthstones)
 	
 	if self.db.profile.moveArmour then
-		IDs = {
-			28585,		-- Ruby Slippers
-		}
-		AddToSet(Result, IDs)
+		AddToSet(Result, armour)
 	end
 	
 	if self.db.profile.moveJewelry then
-		IDs = {
-			139599,		-- Empowered Ring of the Kirin Tor
-			48956,		-- Etched Ring of the Kirin Tor
-			45690,		-- Inscribed Ring of the Kirin Tor
-			44935,		-- Ring of the Kirin Tor
-			51559,		-- Runed Ring of the Kirin Tor
-		}
-		AddToSet(Result, IDs)
+		AddToSet(Result, jewelry)
 	end
 	
 	if self.db.profile.moveQuests then
-		IDs = {
-			61379,		-- Gidwin's Hearthstone
-			68808,		-- Hero's Hearthstone
-			68809,		-- Veteran's Hearthstone
-			92510,		-- Vol'jin's Hearthstone
-		}
-		AddToSet(Result, IDs)
+		AddToSet(Result, quest_items)
 	end
 	
 	if self.db.profile.moveScrolls then
-		IDs = {
-			48248,		-- Scroll of Recall
-			60336,		-- Scroll of Recall II
-			60337,		-- Scroll of Recall III
-		}
-		AddToSet(Result, IDs)
+		AddToSet(Result, scrolls)
 	end
 	
 	if self.db.profile.moveToys then
-		IDs = {
-			64488,		-- Innkeeper's Daughter
-		}
-		AddToSet(Result, IDs)
+		AddToSet(Result, toys)
 	end
 	
 	return Result
