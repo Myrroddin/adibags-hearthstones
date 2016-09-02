@@ -27,6 +27,7 @@ local hearthstones = {
 	52251,		-- Jaina's Locket
 	58487,		-- Potion of Deepholm
 	118663,		-- Relic of Karabor
+	29796,		-- Socrethar's Teleportation Stone
 	64457,		-- The Last Relic of Argus
 }
 
@@ -86,9 +87,12 @@ local quest_items = {
 }
 
 local scrolls = {
+	35230,		-- Darnarian's Scroll of Teleportation
 	48248,		-- Scroll of Recall
 	60336,		-- Scroll of Recall II
 	60337,		-- Scroll of Recall III
+	119183,		-- Scroll of Risky Recall
+	139590,		-- Scroll of Teleport: Ravenholdt
 }
 
 local toys = {
