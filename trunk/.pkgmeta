@@ -2,3 +2,6 @@ package-as: "AdiBags_Hearthstones"
 
 required-dependencies:
     - adibags
+
+tools-used:
+    - findglobals
