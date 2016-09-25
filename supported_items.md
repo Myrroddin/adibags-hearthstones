@@ -8,13 +8,13 @@ All items are listed alphabetically in English, broken down by category, with th
 * Garrison Hearthstone 110560
 * Hearthstone 6948
 * Jaina's Locket 52251
-* Potion of Deepholm 58487
 * Relic of Karabor 118663
 * Socrethar's Teleportation Stone 29796
-* The Last Relic of Argus
+* The Last Relic of Argus 64457
 
 ## Armor With a Hearthing Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
+
 * Argent Crusader's Tabard
 * Atiesh, Greatstaff of the Guardian (Druid) 22632
 * Atiesh, Greatstaff of the Guardian (Mage) 22589
@@ -33,6 +33,7 @@ Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
 
 ## Jewelry with a Hearthing Component
 Includes Rings, Neck Items, and Trinkets
+
 * Blessed Medallion of Karabor 32757
 * Empowered Ring of the Kirin Tor 139599
 * Etched Ring of the Kirin Tor 48956
@@ -74,9 +75,11 @@ Includes Rings, Neck Items, and Trinkets
 * Scroll of Recall III 60337
 * Scroll of Risky Recall 119183
 * Scroll of Teleport: Ravenholdt 139590
+* Potion of Deepholm 58487
 
 ## Toys
 _You should learn these, then **sell or destroy duplicates** from your inventory._
+
 * Dark Portal 93672
 * Dimensional Ripper - Area 52 36954
 * Dimensional Ripper - Everlook 23486
@@ -90,3 +93,6 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Wormhole Centrifuge 112059
 * Wormhole Generator: Northrend 48933
 * Wormhole Generator: Pandaria 87215
+
+## Flight Master's Whistle
+* Flight Master's Whistle 141605
