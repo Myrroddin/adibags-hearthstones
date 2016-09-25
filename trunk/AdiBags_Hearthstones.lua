@@ -25,7 +25,6 @@ local hearthstones = {
 	110560,		-- Garrison Hearthstone
 	6948,		-- Hearthstone
 	52251,		-- Jaina's Locket
-	58487,		-- Potion of Deepholm
 	118663,		-- Relic of Karabor
 	29796,		-- Socrethar's Teleportation Stone
 	64457,		-- The Last Relic of Argus
@@ -93,6 +92,7 @@ local scrolls = {
 	60337,		-- Scroll of Recall III
 	119183,		-- Scroll of Risky Recall
 	139590,		-- Scroll of Teleport: Ravenholdt
+	58487,		-- Potion of Deepholm
 }
 
 local toys = {
@@ -109,6 +109,10 @@ local toys = {
 	112059,		-- Wormhole Centrifuge
 	48933,		-- Wormhole Generator: Northrend
 	87215,		-- Wormhole Generator: Pandaria
+}
+
+local whistle = {
+	141605,		-- Flight Master's Whistle
 }
 
 local function MatchIDs_Init(self)
@@ -134,6 +138,10 @@ local function MatchIDs_Init(self)
 	
 	if self.db.profile.moveToys then
 		AddToSet(Result, toys)
+	end
+	
+	if self.db.profile.moveWhistle then
+		AddToSet(Result, whistle)
 	end
 	
 	return Result
@@ -163,9 +171,9 @@ function setFilter:OnInitialize()
 			moveJewelry = true,
 			moveQuests = true,
 			moveScrolls = false, 
-			moveToys = false
-		},
-		char = {},
+			moveToys = false,
+			moveWhistle = true
+		}
 	})
 end
 
@@ -222,8 +230,7 @@ function setFilter:GetOptions()
 			order = 30
 		},
 		moveScrolls = {
-			name  = L["Scrolls"],
-			desc  = L["Show items like Inscription teleport scrolls in this group."],
+			name  = AUCTION_CATEGORY_CONSUMABLES,
 			type  = "toggle",
 			order = 40
 		},
@@ -232,6 +239,12 @@ function setFilter:GetOptions()
 			desc  = L["Show items like Innkeeper's Daughter in this group."],
 			type  = "toggle",
 			order = 50
+		},
+		moveWhistle = {
+			name = L["Flight Master's Whistle"],
+			desc = L["FMW isn't a Hearthstone, but helps you get around faster."],
+			type = "toggle",
+			order = 60
 		}
 	},
 	AdiBags:GetOptionHandler(self, false, function()
