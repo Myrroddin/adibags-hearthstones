@@ -76,6 +76,11 @@ Includes Rings, Neck Items, and Trinkets
 * Scroll of Risky Recall 119183
 * Scroll of Teleport: Ravenholdt 139590
 * Potion of Deepholm 58487
+* Scroll of Town Portal: Kal'delar 141015
+* Scroll of Town Portal: Sashj'tar 141014
+* Scroll of Town Portal: Lian'tril 141017
+* Scroll of Town Portal: Faronaar 141016
+* Scroll of Town Portal: Shala'nir 141013
 
 ## Toys
 _You should learn these, then **sell or destroy duplicates** from your inventory._
