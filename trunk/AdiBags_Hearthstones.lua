@@ -93,6 +93,12 @@ local scrolls = {
 	119183,		-- Scroll of Risky Recall
 	139590,		-- Scroll of Teleport: Ravenholdt
 	58487,		-- Potion of Deepholm
+	141015,		-- Scroll of Town Portal: Kal'delar
+	141014,		-- Scroll of Town Portal: Sashj'tar
+	141017,		-- Scroll of Town Portal: Lian'tril
+	141016,		-- Scroll of Town Portal: Faronaar
+	141013,		-- Scroll of Town Portal: Shala'nir
+	
 }
 
 local toys = {
