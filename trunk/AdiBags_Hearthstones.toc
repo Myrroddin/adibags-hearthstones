@@ -1,4 +1,4 @@
-## Interface: 70000
+## Interface: 70100
 ## Title: AdiBags - Hearthstones
 ## Notes: Adds various hearthing items to AdiBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU", key="Notes", namespace="ToC")@
