@@ -98,6 +98,7 @@ local scrolls = {
 	141017,		-- Scroll of Town Portal: Lian'tril
 	141016,		-- Scroll of Town Portal: Faronaar
 	141013,		-- Scroll of Town Portal: Shala'nir
+	142543,		-- Scroll of Town Portal (Diablo 3 event)
 	
 }
 
@@ -115,6 +116,7 @@ local toys = {
 	112059,		-- Wormhole Centrifuge
 	48933,		-- Wormhole Generator: Northrend
 	87215,		-- Wormhole Generator: Pandaria
+	142542,		-- Tome of Town Portal (Diablo 3 event)
 }
 
 local whistle = {

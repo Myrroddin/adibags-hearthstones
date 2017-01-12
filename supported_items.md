@@ -81,6 +81,7 @@ Includes Rings, Neck Items, and Trinkets
 * Scroll of Town Portal: Lian'tril 141017
 * Scroll of Town Portal: Faronaar 141016
 * Scroll of Town Portal: Shala'nir 141013
+* Scroll of Town Portal 142543
 
 ## Toys
 _You should learn these, then **sell or destroy duplicates** from your inventory._
@@ -98,6 +99,7 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Wormhole Centrifuge 112059
 * Wormhole Generator: Northrend 48933
 * Wormhole Generator: Pandaria 87215
+* Tome of Town Portal 142542
 
 ## Flight Master's Whistle
 * Flight Master's Whistle 141605
