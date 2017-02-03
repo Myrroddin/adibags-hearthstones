@@ -11,6 +11,8 @@ All items are listed alphabetically in English, broken down by category, with th
 * Relic of Karabor 118663
 * Socrethar's Teleportation Stone 29796
 * The Last Relic of Argus 64457
+* Bladespire Relic 118662
+* Intra-Dalaran Wormhole Generator 132517
 
 ## Armor With a Hearthing Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
@@ -61,6 +63,7 @@ Includes Rings, Neck Items, and Trinkets
 * The Brassiest Knuckle (Bizmo's Brawlpub) 95051
 * The Brassiest Knuckle (Brawl'gar Arena) 95050
 * Time-Lost Artifact 103678
+* Band of the Kirin Tor 40586
 
 ## Quest Items (usually one use only)
 * Gidwin's Hearthstone 61379
