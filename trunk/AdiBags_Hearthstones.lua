@@ -88,6 +88,10 @@ local jewelry = {
 	144391,		-- Pugilist's Powerful Punching Ring
 	142469,		-- Violet Seal of the Grand Magus
 	141324,		-- Talisman of the Shal'dorei
+	44934,		-- Loop of the Kirin Tor
+	51558,		-- Runed Loop of the Kirin Tor
+	45689,		-- Inscribed Loop of the Kirin Tor
+	48955,		-- Etched Loop of the Kirin Tor
 }
 
 local quest_items = {
