@@ -13,6 +13,12 @@ All items are listed alphabetically in English, broken down by category, with th
 * The Last Relic of Argus 64457
 * Bladespire Relic 118662
 * Intra-Dalaran Wormhole Generator 132517
+* Adept's Guide to Dimensional Rifting 140493
+* Hunter's Seeking Crystal 128502
+* Master Hunter's Seeking Crystal 128503
+* Reaves Battery 132523
+* Rechargeable Reaves Battery 144341
+* Emblem of Margoss 138448
 
 ## Armor With a Hearthing Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
