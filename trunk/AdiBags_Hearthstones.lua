@@ -1,6 +1,6 @@
 --[[
 AdiBags_Hearths - Adds various hearthing items to AdiBags virtual groups
-© 2016 - 2017 Paul "Myrroddin" Vandersypen, All Rights Reserved
+© 2016 - 2019 Paul "Myrroddin" Vandersypen, All Rights Reserved
 ]]--
 
 local addonName, addon = ...
@@ -36,6 +36,7 @@ local hearthstones = {
 	132523,		-- Reaves Battery
 	144341,		-- Rechargeable Reaves Battery
 	138448,		-- Emblem of Margoss
+	141605,		-- Flight Master's Whistle
 }
 
 local armour = {
@@ -92,6 +93,8 @@ local jewelry = {
 	51558,		-- Runed Loop of the Kirin Tor
 	45689,		-- Inscribed Loop of the Kirin Tor
 	48955,		-- Etched Loop of the Kirin Tor
+	166560,		-- Captain's Signet of Command
+	166559,		-- Commander's Signet of Battle
 }
 
 local quest_items = {
@@ -115,7 +118,7 @@ local scrolls = {
 	141016,		-- Scroll of Town Portal: Faronaar
 	141013,		-- Scroll of Town Portal: Shala'nir
 	142543,		-- Scroll of Town Portal (Diablo 3 event)
-	
+
 }
 
 local toys = {
@@ -134,44 +137,42 @@ local toys = {
 	48933,		-- Wormhole Generator: Northrend
 	87215,		-- Wormhole Generator: Pandaria
 	142542,		-- Tome of Town Portal (Diablo 3 event)
-}
-
-local whistle = {
-	141605,		-- Flight Master's Whistle
+	168807,		-- Wormhole Generator: Kul Tiras
+	168808,		-- Wormhole Generator: Zandalar
 }
 
 local function MatchIDs_Init(self)
 	wipe(Result)
-	
+
 	AddToSet(Result, hearthstones)
-	
+
 	if self.db.profile.moveArmour then
 		AddToSet(Result, armour)
 	end
-	
+
 	if self.db.profile.moveJewelry then
 		AddToSet(Result, jewelry)
 	end
-	
+
 	if self.db.profile.moveQuests then
 		AddToSet(Result, quest_items)
 	end
-	
+
 	if self.db.profile.moveScrolls then
 		AddToSet(Result, scrolls)
 	end
-	
+
 	if self.db.profile.moveToys then
 		AddToSet(Result, toys)
 	end
-	
+
 	if self.db.profile.moveWhistle then
 		AddToSet(Result, whistle)
 	end
-	
+
 	return Result
  end
- 
+
 local function Tooltip_Init()
 	local tip, leftside = CreateFrame("GameTooltip"), {}
 	for i = 1, 6 do
@@ -184,7 +185,7 @@ local function Tooltip_Init()
 	tip.leftside = leftside
 	return tip
 end
- 
+
 local setFilter = AdiBags:RegisterFilter("Hearthstones", 92, "ABEvent-1.0")
 setFilter.uiName = TUTORIAL_TITLE31
 setFilter.uiDesc = L["Items that hearth you to various places."]
@@ -192,12 +193,11 @@ setFilter.uiDesc = L["Items that hearth you to various places."]
 function setFilter:OnInitialize()
 	self.db = AdiBags.db:RegisterNamespace("Hearthstones", {
 		profile = {
-			moveArmour = true, 
+			moveArmour = true,
 			moveJewelry = true,
 			moveQuests = true,
-			moveScrolls = false, 
+			moveScrolls = false,
 			moveToys = false,
-			moveWhistle = true
 		}
 	})
 end
@@ -220,17 +220,17 @@ function setFilter:Filter(slotData)
 	if MatchIDs[slotData.itemId] then
 		return TUTORIAL_TITLE31
 	end
-	
+
 	Tooltip = Tooltip or Tooltip_Init()
 	Tooltip:SetOwner(UIParent,"ANCHOR_NONE")
 	Tooltip:ClearLines()
-	
+
 	if slotData.bag == BANK_CONTAINER then
 		Tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
 	else
 		Tooltip:SetBagItem(slotData.bag, slotData.slot)
 	end
-	
+
 	Tooltip:Hide()
 end
 
@@ -238,19 +238,16 @@ function setFilter:GetOptions()
 	return {
 		moveArmour = {
 			name  = AUCTION_CATEGORY_ARMOR,
-			desc  = L["Show items like Ruby Slippers in this group."],
 			type  = "toggle",
 			order = 10
 		},
 		moveJewelry = {
-			name  = L["Jewelry"],
-			desc  = L["Show items like the Kirin Tor rings in this group."],
+			name  = HEIRLOOMS_CATEGORY_TRINKETS_RINGS_AND_NECKLACES,
 			type  = "toggle",
 			order = 20
 		},
 		moveQuests = {
-			name = QUESTS_LABEL,
-			desc = L["Show quest items that portal in this group."],
+			name = AUCTION_CATEGORY_QUEST_ITEMS,
 			type = "toggle",
 			order = 30
 		},
@@ -261,15 +258,8 @@ function setFilter:GetOptions()
 		},
 		moveToys = {
 			name  = TOY,
-			desc  = L["Show items like Innkeeper's Daughter in this group."],
 			type  = "toggle",
 			order = 50
-		},
-		moveWhistle = {
-			name = L["Flight Master's Whistle"],
-			desc = L["FMW isn't a Hearthstone, but helps you get around faster."],
-			type = "toggle",
-			order = 60
 		}
 	},
 	AdiBags:GetOptionHandler(self, false, function()
