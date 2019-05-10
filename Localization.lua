@@ -49,14 +49,7 @@ elseif locale == "esMX" then
 
 else
 -- enUS default
-L["Flight Master's Whistle"] = true
-L["FMW isn't a Hearthstone, but helps you get around faster."] = true
 L["Items that hearth you to various places."] = true
-L["Jewelry"] = true
-L["Show items like Innkeeper's Daughter in this group."] = true
-L["Show items like the Kirin Tor rings in this group."] = true
-L["Show items like Ruby Slippers in this group."] = true
-L["Show quest items that portal in this group."] = true
 end
 
 -- Replace remaining true values by their key

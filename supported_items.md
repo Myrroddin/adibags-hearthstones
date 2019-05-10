@@ -19,6 +19,7 @@ All items are broken down by category, with the itemID number to the item's righ
 * Relic of Karabor 118663
 * Socrethar's Teleportation Stone 29796
 * The Last Relic of Argus 64457
+* Flight Master's Whistle 141605
 
 ## Armor With a Hearth Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
@@ -77,6 +78,8 @@ Includes Rings, Neck Items, and Trinkets
 * Inscribed Loop of the Kirin Tor 45689
 * Loop of the Kirin Tor 44934
 * Runed Loop of the Kirin Tor 51558
+* Captain's Signet of Command 166560
+* Commander's Signet of Battle 166559
 
 ## Quest Items (usually one use only)
 * Gidwin's Hearthstone 61379
@@ -117,6 +120,5 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Wormhole Generator: Northrend 48933
 * Wormhole Generator: Pandaria 87215
 * Tome of Town Portal 142542
-
-## Flight Master's Whistle
-* Flight Master's Whistle 141605
+* Wormhole Generator: Kul Tiras 168807
+* Wormhole Generator: Zandalar 168808
