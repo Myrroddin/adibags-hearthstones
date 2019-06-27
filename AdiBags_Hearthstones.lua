@@ -166,10 +166,6 @@ local function MatchIDs_Init(self)
 		AddToSet(Result, toys)
 	end
 
-	if self.db.profile.moveWhistle then
-		AddToSet(Result, whistle)
-	end
-
 	return Result
  end
 
