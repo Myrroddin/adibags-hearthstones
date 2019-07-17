@@ -55,6 +55,8 @@ local armour = {
 	63352,		-- Shroud of Cooperation: Stormwind
 	63207,		-- Wrap of Unity: Orgrimmar
 	63206,		-- Wrap of Unity: Stormwind
+	169064,		-- Montebank's Colorful Cloak
+	142298,		-- Astonishingly Scarlet Slippers
 }
 
 local jewelry = {
@@ -118,7 +120,9 @@ local scrolls = {
 	141016,		-- Scroll of Town Portal: Faronaar
 	141013,		-- Scroll of Town Portal: Shala'nir
 	142543,		-- Scroll of Town Portal (Diablo 3 event)
-
+	150733,		-- Scroll of Town Portal (Ar'gorok in Arathi)
+	160219,		-- Scroll of Town Portal (Stromgarde in Arathi)
+	163694,		-- Scroll of Luxurious Recall
 }
 
 local toys = {
@@ -139,6 +143,14 @@ local toys = {
 	142542,		-- Tome of Town Portal (Diablo 3 event)
 	168807,		-- Wormhole Generator: Kul Tiras
 	168808,		-- Wormhole Generator: Zandalar
+	166746,		-- Fire Eater's Hearthstone
+	166747,		-- Brewfest Reveler's Hearthstone
+	162973,		-- Greatfather Winter's Heartstone
+	163045,		-- Headless Horseman's Hearthstone
+	168907,		-- Holographic Digitalization Hearthstone
+	165669,		-- Lunar Elder's Hearthstone
+	165802,		-- Noble Gardener's Hearthstone
+	165670,		-- Peddlefeet's Lovely Hearthstone
 }
 
 local function MatchIDs_Init(self)
