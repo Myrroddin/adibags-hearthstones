@@ -39,6 +39,8 @@ Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
 * Shroud of Cooperation: Stormwind 63352
 * Wrap of Unity: Orgrimmar 63207
 * Wrap of Unity: Stormwind 63206
+* Montebank's Colorful Cloak 169064
+* Astonishingly Scarlet Slippers 142298
 
 ## Jewelry with a Hearthing Component
 Includes Rings, Neck Items, and Trinkets
@@ -101,6 +103,9 @@ Includes Rings, Neck Items, and Trinkets
 * Scroll of Town Portal: Faronaar 141016
 * Scroll of Town Portal: Shala'nir 141013
 * Scroll of Town Portal 142543
+* Scroll of Town Portal (Ar'gorok in Arathi) 150733
+* Scroll of Town Portal (Stromgarde) 160219
+* Scroll of Luxurious Recall
 
 ## Toys
 _You should learn these, then **sell or destroy duplicates** from your inventory._
@@ -122,3 +127,11 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Tome of Town Portal 142542
 * Wormhole Generator: Kul Tiras 168807
 * Wormhole Generator: Zandalar 168808
+* Fire Eater's Hearthstone 166746
+* Brewfest Reveler's Hearthstone 166747
+* Greatfather Winter's Hearthstone 162973
+* Headless Horseman's Hearthstone 163045
+* Holographic Digitalization Hearthstone 168907
+* Lunar Elder's Hearthstone 165669
+* Noble Gardener's Hearthstone 165802
+* Peddlefeet's Lovely Hearthstone 165670
