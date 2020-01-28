@@ -1,6 +1,6 @@
 --[[
 AdiBags_Hearths - Adds various hearthing items to AdiBags virtual groups
-© 2016 - 2019 Paul "Myrroddin" Vandersypen, All Rights Reserved
+© 2016 - 2020 Paul "Myrroddin" Vandersypen, All Rights Reserved
 ]]--
 
 local addonName, addon = ...
@@ -37,6 +37,7 @@ local hearthstones = {
 	144341,		-- Rechargeable Reaves Battery
 	138448,		-- Emblem of Margoss
 	141605,		-- Flight Master's Whistle
+	168862,		-- G.E.A.R. Tracking Beacon
 }
 
 local armour = {
@@ -88,7 +89,8 @@ local jewelry = {
 	45691,		-- Inscribed Signet of the Kirin Tor
 	40585,		-- Signet of the Kirin Tor
 	48957,		-- Etched Signet of the Kirin Tor
-	144391,		-- Pugilist's Powerful Punching Ring
+	144391,		-- Pugilist's Powerful Punching Ring (Alliance)
+	144392,		-- Pugilist's Powerful Punching Ring (Horde)
 	142469,		-- Violet Seal of the Grand Magus
 	141324,		-- Talisman of the Shal'dorei
 	44934,		-- Loop of the Kirin Tor
@@ -151,6 +153,7 @@ local toys = {
 	165669,		-- Lunar Elder's Hearthstone
 	165802,		-- Noble Gardener's Hearthstone
 	165670,		-- Peddlefeet's Lovely Hearthstone
+	167075,		-- Ultrasafe Transporter: Mechagon
 }
 
 local function MatchIDs_Init(self)
