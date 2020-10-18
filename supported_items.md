@@ -20,6 +20,9 @@ All items are broken down by category, with the itemID number to the item's righ
 * Socrethar's Teleportation Stone 29796
 * The Last Relic of Argus 64457
 * Flight Master's Whistle 141605
+* G.E.A.R. Tracking Beacon 168862
+* Night Fae Hearthstone 180290
+* Zuldazar Hearthstone 159224
 
 ## Armor With a Hearth Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
@@ -88,6 +91,11 @@ Includes Rings, Neck Items, and Trinkets
 * Hero's Hearthstone 68808
 * Veteran's Hearthstone 68809
 * Vol'jin's Hearthstone 92510
+* Cracked Hearthstone 172203
+* Glowing Hearthstone 173537
+* Faol's Hearthstone 173373
+* Gilded Hearthstone 173528
+* Mossy Hearthstone 173716
 
 ## Scrolls, Drops or Inscription
 * Darnarian's Scroll of Teleportation 35230
@@ -135,3 +143,9 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Lunar Elder's Hearthstone 165669
 * Noble Gardener's Hearthstone 165802
 * Peddlefeet's Lovely Hearthstone 165670
+* Ultrasafe Transporter: Mechagon 167075
+* Necrolord's Hearthstone 182773
+* Kyrian Hearthstone 184353
+* Venthyr Sinstone 183716
+* Stormpike Insignia 169297
+* Wormhole Generator: Shadowlands 172924
