@@ -13,7 +13,7 @@
 ## Notes-frFR: @localization(locale="frFR", key="Notes", namespace="ToC")@
 
 ## Version: @project-version@
-## Author: Myrroddin of Llane-US (Knights of the Storm, Alliance)
+## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
 ## X-Date: @project-date-iso@
 ## X-License: © 2016 - 2020 Paul "Myrroddin" Vandersypen, All Rights Reserved
 ## X-Category: Bags & Inventory
