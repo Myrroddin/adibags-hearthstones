@@ -38,6 +38,8 @@ local hearthstones = {
 	138448,		-- Emblem of Margoss
 	141605,		-- Flight Master's Whistle
 	168862,		-- G.E.A.R. Tracking Beacon
+	180290,		-- Night Fae Hearthstone
+	159224,		-- Zuldazar Hearthstone
 }
 
 local armour = {
@@ -106,6 +108,11 @@ local quest_items = {
 	68808,		-- Hero's Hearthstone
 	68809,		-- Veteran's Hearthstone
 	92510,		-- Vol'jin's Hearthstone
+	172203,		-- Cracked Hearthstone
+	173537,		-- Glowing Hearthstone
+	173373,		-- Faol's Hearthstone
+	173528,		-- Gilded Hearthstone
+	173716,		-- Mossy Hearthstone
 }
 
 local scrolls = {
@@ -147,13 +154,18 @@ local toys = {
 	168808,		-- Wormhole Generator: Zandalar
 	166746,		-- Fire Eater's Hearthstone
 	166747,		-- Brewfest Reveler's Hearthstone
-	162973,		-- Greatfather Winter's Heartstone
+	162973,		-- Greatfather Winter's Hearthstone
 	163045,		-- Headless Horseman's Hearthstone
 	168907,		-- Holographic Digitalization Hearthstone
 	165669,		-- Lunar Elder's Hearthstone
 	165802,		-- Noble Gardener's Hearthstone
 	165670,		-- Peddlefeet's Lovely Hearthstone
 	167075,		-- Ultrasafe Transporter: Mechagon
+	182773,		-- Necrolord's Hearthstone
+	184353,		-- Kyrian Hearthstone
+	183716,		-- Venthyr Sinstone
+	169297,		-- Stormpike Insignia
+	172924,		-- Wormhole Generator: Shadowlands
 }
 
 local function MatchIDs_Init(self)
