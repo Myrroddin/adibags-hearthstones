@@ -38,7 +38,6 @@ local hearthstones = {
 	138448,		-- Emblem of Margoss
 	141605,		-- Flight Master's Whistle
 	168862,		-- G.E.A.R. Tracking Beacon
-	180290,		-- Night Fae Hearthstone
 	159224,		-- Zuldazar Hearthstone
 	180817,		-- Cypher of Relocation (Ve'nari's Refuge)
 }
@@ -150,10 +149,12 @@ local toys = {
 	43824,		-- The Schools of Arcane Magic - Mastery
 	23489,		-- Ultrasafe Transporter - Gadgetzan
 	36955,		-- Ultrasafe Transporter - Toshley's Station
+	167075,		-- Ultrasafe Transporter: Mechagon
 	112059,		-- Wormhole Centrifuge
 	151652,		-- Wormhole Generator: Argus
 	48933,		-- Wormhole Generator: Northrend
 	87215,		-- Wormhole Generator: Pandaria
+	172924,		-- Wormhole Generator: Shadowlands
 	142542,		-- Tome of Town Portal (Diablo 3 event)
 	168807,		-- Wormhole Generator: Kul Tiras
 	168808,		-- Wormhole Generator: Zandalar
@@ -165,12 +166,11 @@ local toys = {
 	165669,		-- Lunar Elder's Hearthstone
 	165802,		-- Noble Gardener's Hearthstone
 	165670,		-- Peddlefeet's Lovely Hearthstone
-	167075,		-- Ultrasafe Transporter: Mechagon
 	182773,		-- Necrolord's Hearthstone
 	184353,		-- Kyrian Hearthstone
 	183716,		-- Venthyr Sinstone
+	180290,		-- Night Fae Hearthstone
 	169297,		-- Stormpike Insignia
-	172924,		-- Wormhole Generator: Shadowlands
 }
 
 local function MatchIDs_Init(self)

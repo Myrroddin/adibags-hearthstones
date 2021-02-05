@@ -21,7 +21,6 @@ All items are broken down by category, with the itemID number to the item's righ
 * The Last Relic of Argus 64457
 * Flight Master's Whistle 141605
 * G.E.A.R. Tracking Beacon 168862
-* Night Fae Hearthstone 180290
 * Zuldazar Hearthstone 159224
 * Cypher of Relocation 180817
 
@@ -49,48 +48,48 @@ Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
 ## Jewelry with a Hearthing Component
 Includes Rings, Neck Items, and Trinkets
 
-* 17690 Frostwolf Insignia Rank 1
-* 17905 Frostwolf Insignia Rank 2
-* 17906 Frostwolf Insignia Rank 3
-* 17907 Frostwolf Insignia Rank 4
-17908,		-- Frostwolf Insignia Rank 5
-17909,		-- Frostwolf Insignia Rank 6
-17691,		-- Stormpike Insignia Rank 1
-17900,		-- Stormpike Insignia Rank 2
-17901,		-- Stormpike Insignia Rank 3
-17902,		-- Stormpike Insignia Rank 4
-17903,		-- Stormpike Insignia Rank 5
-17904,		-- Stormpike Insignia Rank 6
-32757,		-- Blessed Medallion of Karabor
-40586,		-- Band of the Kirin Tor
-45688,		-- Inscribed Band of the Kirin Tor
-45689,		-- Inscribed Loop of the Kirin Tor
-45690,		-- Inscribed Ring of the Kirin Tor
-139599,		-- Empowered Ring of the Kirin Tor
-48956,		-- Etched Ring of the Kirin Tor
-44935,		-- Ring of the Kirin Tor
-51559,		-- Runed Ring of the Kirin Tor
-51560,		-- Runed Band of the Kirin Tor
-51557,		-- Runed Signet of the Kirin Tor
-45691,		-- Inscribed Signet of the Kirin Tor
-40585,		-- Signet of the Kirin Tor
-48957,		-- Etched Signet of the Kirin Tor
-44934,		-- Loop of the Kirin Tor
-51558,		-- Runed Loop of the Kirin Tor
-45689,		-- Inscribed Loop of the Kirin Tor
-48955,		-- Etched Loop of the Kirin Tor
-48954,		-- Etched Band of the Kirin Tor
-118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
-95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
-118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
-95050,		-- The Brassiest Knuckle (Brawl'gar Arena)
-103678,		-- Time-Lost Artifact
-144391,		-- Pugilist's Powerful Punching Ring (Alliance)
-144392,		-- Pugilist's Powerful Punching Ring (Horde)
-142469,		-- Violet Seal of the Grand Magus
-141324,		-- Talisman of the Shal'dorei
-166560,		-- Captain's Signet of Command
-166559,		-- Commander's Signet of Battle
+* Frostwolf Insignia Rank 1 17690
+* Frostwolf Insignia Rank 2 17905
+* Frostwolf Insignia Rank 3 17906
+* Frostwolf Insignia Rank 4 17907
+* Frostwolf Insignia Rank 5 17908
+* Frostwolf Insignia Rank 6 17909
+* Stormpike Insignia Rank 1 17691
+* Stormpike Insignia Rank 2 17900
+* Stormpike Insignia Rank 3 17901
+* Stormpike Insignia Rank 4 17902
+* Stormpike Insignia Rank 5 17903
+* Stormpike Insignia Rank 6 17904
+* Blessed Medallion of Karabor 32757
+* Band of the Kirin Tor 40586
+* Inscribed Band of the Kirin Tor 45688
+* Inscribed Loop of the Kirin Tor 45689
+* Inscribed Ring of the Kirin Tor 45690
+* Empowered Ring of the Kirin Tor 139599
+* Etched Ring of the Kirin Tor 48956
+* Ring of the Kirin Tor 44935
+* Runed Ring of the Kirin Tor 51559
+* Runed Band of the Kirin Tor 51560
+* Runed Signet of the Kirin Tor 51557
+* Inscribed Signet of the Kirin Tor 45691
+* Signet of the Kirin Tor 40585
+* Etched Signet of the Kirin Tor 48957
+* Loop of the Kirin Tor 44934
+* Runed Loop of the Kirin Tor 51558
+* Inscribed Loop of the Kirin Tor 45689
+* Etched Loop of the Kirin Tor 48955
+* Etched Band of the Kirin Tor 48954
+* Pit Fighter's Punching Ring (Bizmo's Brawlpub) 118907
+* The Brassiest Knuckle (Bizmo's Brawlpub) 95051
+* Pit Fighter's Punching Ring (Brawl'gar Arena) 118908
+* The Brassiest Knuckle (Brawl'gar Arena) 95050
+* Time-Lost Artifact 103678
+* Pugilist's Powerful Punching Ring (Alliance) 144391
+* Pugilist's Powerful Punching Ring (Horde) 144392
+* Violet Seal of the Grand Magus 142469
+* Talisman of the Shal'dorei 141324
+* Captain's Signet of Command 166560
+* Commander's Signet of Battle 166559
 
 ## Quest Items (usually one use only)
 * Gidwin's Hearthstone 61379
@@ -138,6 +137,7 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Wormhole Generator: Argus 151652
 * Wormhole Generator: Northrend 48933
 * Wormhole Generator: Pandaria 87215
+* Wormhole Generator: Shadowlands 172924
 * Tome of Town Portal 142542
 * Wormhole Generator: Kul Tiras 168807
 * Wormhole Generator: Zandalar 168808
@@ -153,5 +153,5 @@ _You should learn these, then **sell or destroy duplicates** from your inventory
 * Necrolord's Hearthstone 182773
 * Kyrian Hearthstone 184353
 * Venthyr Sinstone 183716
+* Night Fae Hearthstone 180290
 * Stormpike Insignia 169297
-* Wormhole Generator: Shadowlands 172924
