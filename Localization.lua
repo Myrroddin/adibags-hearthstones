@@ -1,5 +1,5 @@
 --[[
-AdiBags_Hearths - Adds various hearthing items to AdiBags virtual groups
+AdiBags_Hearthstones - Adds various hearthing items to AdiBags virtual groups
 © 2016 - 2021 Paul "Myrroddin" Vandersypen, All Rights Reserved
 ]]--
 

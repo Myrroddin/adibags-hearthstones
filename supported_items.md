@@ -23,6 +23,7 @@ All items are broken down by category, with the itemID number to the item's righ
 * G.E.A.R. Tracking Beacon 168862
 * Night Fae Hearthstone 180290
 * Zuldazar Hearthstone 159224
+* Cypher of Relocation 180817
 
 ## Armor With a Hearth Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
@@ -48,43 +49,48 @@ Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps
 ## Jewelry with a Hearthing Component
 Includes Rings, Neck Items, and Trinkets
 
-* Band of the Kirin Tor 40586
-* Blessed Medallion of Karabor 32757
-* Empowered Ring of the Kirin Tor 139599
-* Etched Ring of the Kirin Tor 48956
-* Etched Signet of the Kirin Tor 48957
-* Frostwolf Insignia Rank 1 17690
-* Frostwolf Insignia Rank 2 17905
-* Frostwolf Insignia Rank 3 17906
-* Frostwolf Insignia Rank 4 17907
-* Frostwolf Insignia Rank 5 17908
-* Frostwolf Insignia Rank 6 17909
-* Inscribed Ring of the Kirin Tor 45690
-* Inscribed Signet of the Kirin Tor 45691
-* Pit Fighter's Punching Ring (Bizmo's Brawlpub) 118907
-* Pit Fighter's Punching Ring (Brawl'gar Arena) 118908
-* Pugilist's Powerful Punching Ring 144391
-* Ring of the Kirin Tor 44935
-* Runed Ring of the Kirin Tor 51559
-* Runed Signet of the Kirin Tor 51557
-* Signet of  the Kirin Tor 40585
-* Stormpike Insignia Rank 1 17691
-* Stormpike Insignia Rank 2 17900
-* Stormpike Insignia Rank 3 17901
-* Stormpike Insignia Rank 4 17902
-* Stormpike Insignia Rank 5 17903
-* Stormpike Insignia Rank 6 17904
-* Talisman of the Shal'dorei 141324
-* The Brassiest Knuckle (Bizmo's Brawlpub) 95051
-* The Brassiest Knuckle (Brawl'gar Arena) 95050
-* Time-Lost Artifact 103678
-* Violet Seal of the Grand Magus 142469
-* Etched Loop of the Kirin Tor 48955
-* Inscribed Loop of the Kirin Tor 45689
-* Loop of the Kirin Tor 44934
-* Runed Loop of the Kirin Tor 51558
-* Captain's Signet of Command 166560
-* Commander's Signet of Battle 166559
+* 17690 Frostwolf Insignia Rank 1
+* 17905 Frostwolf Insignia Rank 2
+* 17906 Frostwolf Insignia Rank 3
+* 17907 Frostwolf Insignia Rank 4
+17908,		-- Frostwolf Insignia Rank 5
+17909,		-- Frostwolf Insignia Rank 6
+17691,		-- Stormpike Insignia Rank 1
+17900,		-- Stormpike Insignia Rank 2
+17901,		-- Stormpike Insignia Rank 3
+17902,		-- Stormpike Insignia Rank 4
+17903,		-- Stormpike Insignia Rank 5
+17904,		-- Stormpike Insignia Rank 6
+32757,		-- Blessed Medallion of Karabor
+40586,		-- Band of the Kirin Tor
+45688,		-- Inscribed Band of the Kirin Tor
+45689,		-- Inscribed Loop of the Kirin Tor
+45690,		-- Inscribed Ring of the Kirin Tor
+139599,		-- Empowered Ring of the Kirin Tor
+48956,		-- Etched Ring of the Kirin Tor
+44935,		-- Ring of the Kirin Tor
+51559,		-- Runed Ring of the Kirin Tor
+51560,		-- Runed Band of the Kirin Tor
+51557,		-- Runed Signet of the Kirin Tor
+45691,		-- Inscribed Signet of the Kirin Tor
+40585,		-- Signet of the Kirin Tor
+48957,		-- Etched Signet of the Kirin Tor
+44934,		-- Loop of the Kirin Tor
+51558,		-- Runed Loop of the Kirin Tor
+45689,		-- Inscribed Loop of the Kirin Tor
+48955,		-- Etched Loop of the Kirin Tor
+48954,		-- Etched Band of the Kirin Tor
+118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
+95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
+118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
+95050,		-- The Brassiest Knuckle (Brawl'gar Arena)
+103678,		-- Time-Lost Artifact
+144391,		-- Pugilist's Powerful Punching Ring (Alliance)
+144392,		-- Pugilist's Powerful Punching Ring (Horde)
+142469,		-- Violet Seal of the Grand Magus
+141324,		-- Talisman of the Shal'dorei
+166560,		-- Captain's Signet of Command
+166559,		-- Commander's Signet of Battle
 
 ## Quest Items (usually one use only)
 * Gidwin's Hearthstone 61379

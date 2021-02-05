@@ -40,6 +40,7 @@ local hearthstones = {
 	168862,		-- G.E.A.R. Tracking Beacon
 	180290,		-- Night Fae Hearthstone
 	159224,		-- Zuldazar Hearthstone
+	180817,		-- Cypher of Relocation (Ve'nari's Refuge)
 }
 
 local armour = {
@@ -63,18 +64,6 @@ local armour = {
 }
 
 local jewelry = {
-	40586,		-- Band of the Kirin Tor
-	32757,		-- Blessed Medallion of Karabor
-	139599,		-- Empowered Ring of the Kirin Tor
-	48956,		-- Etched Ring of the Kirin Tor
-	45690,		-- Inscribed Ring of the Kirin Tor
-	44935,		-- Ring of the Kirin Tor
-	51559,		-- Runed Ring of the Kirin Tor
-	118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
-	95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
-	118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
-	95050,		-- The Brassiest Knuckle (Brawl'gar Arena)
-	103678,		-- Time-Lost Artifact
 	17690,		-- Frostwolf Insignia Rank 1
 	17905,		-- Frostwolf Insignia Rank 2
 	17906,		-- Frostwolf Insignia Rank 3
@@ -87,18 +76,34 @@ local jewelry = {
 	17902,		-- Stormpike Insignia Rank 4
 	17903,		-- Stormpike Insignia Rank 5
 	17904,		-- Stormpike Insignia Rank 6
+	32757,		-- Blessed Medallion of Karabor
+	40586,		-- Band of the Kirin Tor
+	45688,		-- Inscribed Band of the Kirin Tor
+	45689,		-- Inscribed Loop of the Kirin Tor
+	45690,		-- Inscribed Ring of the Kirin Tor
+	139599,		-- Empowered Ring of the Kirin Tor
+	48956,		-- Etched Ring of the Kirin Tor
+	44935,		-- Ring of the Kirin Tor
+	51559,		-- Runed Ring of the Kirin Tor
+	51560,		-- Runed Band of the Kirin Tor
 	51557,		-- Runed Signet of the Kirin Tor
 	45691,		-- Inscribed Signet of the Kirin Tor
 	40585,		-- Signet of the Kirin Tor
 	48957,		-- Etched Signet of the Kirin Tor
-	144391,		-- Pugilist's Powerful Punching Ring (Alliance)
-	144392,		-- Pugilist's Powerful Punching Ring (Horde)
-	142469,		-- Violet Seal of the Grand Magus
-	141324,		-- Talisman of the Shal'dorei
 	44934,		-- Loop of the Kirin Tor
 	51558,		-- Runed Loop of the Kirin Tor
 	45689,		-- Inscribed Loop of the Kirin Tor
 	48955,		-- Etched Loop of the Kirin Tor
+	48954,		-- Etched Band of the Kirin Tor
+	118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
+	95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
+	118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
+	95050,		-- The Brassiest Knuckle (Brawl'gar Arena)
+	103678,		-- Time-Lost Artifact
+	144391,		-- Pugilist's Powerful Punching Ring (Alliance)
+	144392,		-- Pugilist's Powerful Punching Ring (Horde)
+	142469,		-- Violet Seal of the Grand Magus
+	141324,		-- Talisman of the Shal'dorei
 	166560,		-- Captain's Signet of Command
 	166559,		-- Commander's Signet of Battle
 }
