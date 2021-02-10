@@ -23,6 +23,11 @@ All items are broken down by category, with the itemID number to the item's righ
 * G.E.A.R. Tracking Beacon 168862
 * Zuldazar Hearthstone 159224
 * Cypher of Relocation 180817
+* Attendant's Pocket Portal: Oribos 184504
+* Attendant's Pocket Portal: Revendreth 184501
+* Attendant's Pocket Portal: Ardenweald 184503
+* Attendant's Pocket Portal: Maldraxxus 184502
+* Attendant's Pocket Portal: Bastion 184500
 
 ## Armor With a Hearth Component
 Includes Tabards, Cloaks, Weapons, Shrouds, and Wraps

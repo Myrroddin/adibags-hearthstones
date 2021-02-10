@@ -40,6 +40,11 @@ local hearthstones = {
 	168862,		-- G.E.A.R. Tracking Beacon
 	159224,		-- Zuldazar Hearthstone
 	180817,		-- Cypher of Relocation (Ve'nari's Refuge)
+	184504,		-- Attendant's Pocket Portal: Oribos
+	184501,		-- Attendant's Pocket Portal: Revendreth
+	184503,		-- Attendant's Pocket Portal: Ardenweald
+	184502,		-- Attendant's Pocket Portal: Maldraxxus
+	184500,		-- Attendant's Pocket Portal: Bastion
 }
 
 local armour = {
