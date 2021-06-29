@@ -117,6 +117,8 @@ local quest_items = {
 	68808,		-- Hero's Hearthstone
 	68809,		-- Veteran's Hearthstone
 	92510,		-- Vol'jin's Hearthstone
+	132119,		-- Orgrimmar Portal Stone
+	132120,		-- Stormwind Portal Stone
 	172203,		-- Cracked Hearthstone
 	173537,		-- Glowing Hearthstone
 	173373,		-- Faol's Hearthstone

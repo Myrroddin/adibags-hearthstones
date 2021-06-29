@@ -101,6 +101,8 @@ Includes Rings, Neck Items, and Trinkets
 * Hero's Hearthstone 68808
 * Veteran's Hearthstone 68809
 * Vol'jin's Hearthstone 92510
+* Orgrimmar Portal Stone 132119
+* Stormwind Portal Stone 132120
 * Cracked Hearthstone 172203
 * Glowing Hearthstone 173537
 * Faol's Hearthstone 173373
