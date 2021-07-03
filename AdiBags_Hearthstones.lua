@@ -143,6 +143,7 @@ local scrolls = {
 	150733,		-- Scroll of Town Portal (Ar'gorok in Arathi)
 	160219,		-- Scroll of Town Portal (Stromgarde in Arathi)
 	163694,		-- Scroll of Luxurious Recall
+	181163,		-- Scroll of Teleport: Theater of Pain
 }
 
 local toys = {
