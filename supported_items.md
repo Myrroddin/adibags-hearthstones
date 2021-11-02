@@ -126,6 +126,8 @@ Includes Rings, Neck Items, and Trinkets
 * Scroll of Town Portal (Ar'gorok in Arathi) 150733
 * Scroll of Town Portal (Stromgarde) 160219
 * Scroll of Luxurious Recall
+* Nexus Teleport Scroll 173430
+* Scroll of Teleport: Theater of Pain 181163
 
 ## Toys
 _You should learn these, then **sell or destroy duplicates** from your inventory._
