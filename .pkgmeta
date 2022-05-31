@@ -4,8 +4,5 @@ wowi-archive-previous: no
 required-dependencies:
     - adibags
 
-tools-used:
-    - findglobals
-
 ignore:
     - supported_items.md
