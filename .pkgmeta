@@ -1,5 +1,6 @@
 package-as: AdiBags_Hearthstones
 wowi-archive-previous: no
+enable-toc-creation: yes
 
 required-dependencies:
     - adibags

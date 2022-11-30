@@ -1,4 +1,6 @@
 ## Interface: 100002
+## Interface-Classic: 11403
+## Interface-Wrath: 30400
 ## Title: AdiBags - Hearthstones
 ## Notes: Adds various hearthing items to AdiBags virtual groups
 ## Notes-ruRU: @localization(locale="ruRU", key="Notes", namespace="ToC")@
@@ -22,4 +24,5 @@
 ## X-WoWI-ID: 24173
 
 Localization.lua
+Database.lua
 AdiBags_Hearthstones.lua

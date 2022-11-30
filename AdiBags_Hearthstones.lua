@@ -1,6 +1,6 @@
 --[[
-AdiBags_Hearths - Adds various hearthing items to AdiBags virtual groups
-© 2016 - 2022 Paul "Myrroddin" Vandersypen, All Rights Reserved
+AdiBags_Hearthstones - Adds various hearthing items to AdiBags virtual groups
+© 2022 Paul Vandersypen, All Rights Reserved
 ]]--
 
 local addonName, addon = ...
