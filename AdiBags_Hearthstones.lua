@@ -3,19 +3,73 @@ AdiBags_Hearthstones - Adds various hearthing items to AdiBags virtual groups
 © 2022 Paul Vandersypen, All Rights Reserved
 ]]--
 
-local addonName, addon = ...
+local _, addon = ...
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
-
 local L = addon.L
-local MatchIDs
-local Tooltip
-local Result = {}
 
-local function AddToSet(Set, List)
-	for _, v in ipairs(List) do
-		Set[v] = true
+local db = addon.db
+
+-- check for existing filter
+local function CheckFilter(newFilter)
+	local filterExists = false
+	for _, value in AdiBags:IterateFilters() do
+		if value.filterName == newFilter then
+			filterExists = true
+			return filterExists
+		end
+	end
+	return filterExists
+end
+
+-- create filter
+local function CreateFilter(name, uiName, uiDesc, title, items)
+	local filter = AdiBags:RegisterFilter(uiName, 99, "ABEvent-1.0")
+	-- Register Filter with AdiBags
+	filter.uiName = uiName
+	filter.uiDesc = uiDesc
+	filter.items = items
+
+	function filter:OnInitialize()
+		-- Assign item table to filter
+		self.items = filter.items
+	end
+
+	function filter:Update()
+		self:SendMessage("AdiBags_FiltersChanged")
+	end
+
+	function filter:OnEnable()
+		AdiBags:UpdateFilters()
+	end
+
+	function filter:OnDisable()
+		AdiBags:UpdateFilters()
+	end
+
+	function filter:Filter(slotData)
+		if self.items[tonumber(slotData.itemId)] then
+			return title
+		end
 	end
 end
+
+-- run filter
+local function AllFilters(db)
+	for name, group in pairs(db.Filters) do
+		-- Does filter already exist?
+		local filterExists = CheckFilter(group.uiName)
+		if not filterExists == nil or filterExists == false then
+			-- name = Name of table
+			-- group.uiName = Name to use in filter listing
+			-- group.uiDesc = Description to show in filter listing
+			-- group.items = table of items to sort
+			CreateFilter(name, group.uiName, group.uiDesc, group.title, group.items)
+		end
+	end
+end
+
+-- start here
+AllFilters(db)
 
 -- the list of items, toys, cloaks, etc
 local hearthstones = {
@@ -181,125 +235,3 @@ local toys = {
 	180290,		-- Night Fae Hearthstone
 	169297,		-- Stormpike Insignia
 }
-
-local function MatchIDs_Init(self)
-	wipe(Result)
-
-	AddToSet(Result, hearthstones)
-
-	if self.db.profile.moveArmour then
-		AddToSet(Result, armour)
-	end
-
-	if self.db.profile.moveJewelry then
-		AddToSet(Result, jewelry)
-	end
-
-	if self.db.profile.moveQuests then
-		AddToSet(Result, quest_items)
-	end
-
-	if self.db.profile.moveScrolls then
-		AddToSet(Result, scrolls)
-	end
-
-	if self.db.profile.moveToys then
-		AddToSet(Result, toys)
-	end
-
-	return Result
- end
-
-local function Tooltip_Init()
-	local tip, leftside = CreateFrame("GameTooltip"), {}
-	for i = 1, 6 do
-		local Left, Right = tip:CreateFontString(), tip:CreateFontString()
-		Left:SetFontObject(GameFontNormal)
-		Right:SetFontObject(GameFontNormal)
-		tip:AddFontStrings(Left, Right)
-		leftside[i] = Left
-	end
-	tip.leftside = leftside
-	return tip
-end
-
-local setFilter = AdiBags:RegisterFilter("Hearthstones", 92, "ABEvent-1.0")
-setFilter.uiName = TUTORIAL_TITLE31
-setFilter.uiDesc = L["Items that hearth you to various places."]
-
-function setFilter:OnInitialize()
-	self.db = AdiBags.db:RegisterNamespace("Hearthstones", {
-		profile = {
-			moveArmour = true,
-			moveJewelry = true,
-			moveQuests = true,
-			moveScrolls = false,
-			moveToys = false,
-		}
-	})
-end
-
-function setFilter:Update()
-	MatchIDs = nil
-	self:SendMessage("AdiBags_FiltersChanged")
-end
-
-function setFilter:OnEnable()
-	AdiBags:UpdateFilters()
-end
-
-function setFilter:OnDisable()
-	AdiBags:UpdateFilters()
-end
-
-function setFilter:Filter(slotData)
-	MatchIDs = MatchIDs or MatchIDs_Init(self)
-	if MatchIDs[slotData.itemId] then
-		return TUTORIAL_TITLE31
-	end
-
-	Tooltip = Tooltip or Tooltip_Init()
-	Tooltip:SetOwner(UIParent,"ANCHOR_NONE")
-	Tooltip:ClearLines()
-
-	if slotData.bag == BANK_CONTAINER then
-		Tooltip:SetInventoryItem("player", BankButtonIDToInvSlotID(slotData.slot, nil))
-	else
-		Tooltip:SetBagItem(slotData.bag, slotData.slot)
-	end
-
-	Tooltip:Hide()
-end
-
-function setFilter:GetOptions()
-	return {
-		moveArmour = {
-			name  = AUCTION_CATEGORY_ARMOR,
-			type  = "toggle",
-			order = 10
-		},
-		moveJewelry = {
-			name  = HEIRLOOMS_CATEGORY_TRINKETS_RINGS_AND_NECKLACES,
-			type  = "toggle",
-			order = 20
-		},
-		moveQuests = {
-			name = AUCTION_CATEGORY_QUEST_ITEMS,
-			type = "toggle",
-			order = 30
-		},
-		moveScrolls = {
-			name  = AUCTION_CATEGORY_CONSUMABLES,
-			type  = "toggle",
-			order = 40
-		},
-		moveToys = {
-			name  = TOY,
-			type  = "toggle",
-			order = 50
-		}
-	},
-	AdiBags:GetOptionHandler(self, false, function()
-		return self:Update()
-	end)
-end
