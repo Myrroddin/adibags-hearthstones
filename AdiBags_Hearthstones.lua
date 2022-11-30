@@ -75,10 +75,7 @@ AllFilters(db)
 local hearthstones = {
 	128353,		-- Admiral's Compass
 	140192,		-- Dalaran Hearthstone
-	37863,		-- Direbrew's Remote
 	110560,		-- Garrison Hearthstone
-	6948,		-- Hearthstone
-	52251,		-- Jaina's Locket
 	118663,		-- Relic of Karabor
 	29796,		-- Socrethar's Teleportation Stone
 	64457,		-- The Last Relic of Argus
@@ -102,17 +99,11 @@ local hearthstones = {
 }
 
 local armour = {
-	46874,		-- Argent Crusader's Tabard
 	63379,		-- Baradin's Wardens Tabard
 	63378,		-- Hellscream's Reach Tabard
-	22632,		-- Atiesh, Greatstaff of the Guardian (Druid)
-	22589,		-- Atiesh, Greatstaff of the Guardian (Mage)
-	22631,		-- Atiesh, Greatstaff of the Guardian (Priest)
-	22630,		-- Atiesh, Greatstaff of the Guardian (Warlock)
 	50287,		-- Boots of the Bay
 	65274,		-- Cloak of Coordination: Orgrimmar
 	65360,		-- Cloak of Coordination: Stormwind
-	28585,		-- Ruby Slippers
 	63353,		-- Shroud of Cooperation: Orgrimmar
 	63352,		-- Shroud of Cooperation: Stormwind
 	63207,		-- Wrap of Unity: Orgrimmar
@@ -122,37 +113,8 @@ local armour = {
 }
 
 local jewelry = {
-	17690,		-- Frostwolf Insignia Rank 1
-	17905,		-- Frostwolf Insignia Rank 2
-	17906,		-- Frostwolf Insignia Rank 3
-	17907,		-- Frostwolf Insignia Rank 4
-	17908,		-- Frostwolf Insignia Rank 5
-	17909,		-- Frostwolf Insignia Rank 6
-	17691,		-- Stormpike Insignia Rank 1
-	17900,		-- Stormpike Insignia Rank 2
-	17901,		-- Stormpike Insignia Rank 3
-	17902,		-- Stormpike Insignia Rank 4
-	17903,		-- Stormpike Insignia Rank 5
-	17904,		-- Stormpike Insignia Rank 6
 	32757,		-- Blessed Medallion of Karabor
-	40586,		-- Band of the Kirin Tor
-	45688,		-- Inscribed Band of the Kirin Tor
-	45689,		-- Inscribed Loop of the Kirin Tor
-	45690,		-- Inscribed Ring of the Kirin Tor
 	139599,		-- Empowered Ring of the Kirin Tor
-	48956,		-- Etched Ring of the Kirin Tor
-	44935,		-- Ring of the Kirin Tor
-	51559,		-- Runed Ring of the Kirin Tor
-	51560,		-- Runed Band of the Kirin Tor
-	51557,		-- Runed Signet of the Kirin Tor
-	45691,		-- Inscribed Signet of the Kirin Tor
-	40585,		-- Signet of the Kirin Tor
-	48957,		-- Etched Signet of the Kirin Tor
-	44934,		-- Loop of the Kirin Tor
-	51558,		-- Runed Loop of the Kirin Tor
-	45689,		-- Inscribed Loop of the Kirin Tor
-	48955,		-- Etched Loop of the Kirin Tor
-	48954,		-- Etched Band of the Kirin Tor
 	118907,		-- Pit Fighter's Punching Ring (Bizmo's Brawlpub)
 	95051,		-- The Brassiest Knuckle (Bizmo's Brawlpub)
 	118908,		-- Pit Fighter's Punching Ring (Brawl'gar Arena)
@@ -181,10 +143,6 @@ local quest_items = {
 }
 
 local scrolls = {
-	35230,		-- Darnarian's Scroll of Teleportation
-	48248,		-- Scroll of Recall
-	60336,		-- Scroll of Recall II
-	60337,		-- Scroll of Recall III
 	119183,		-- Scroll of Risky Recall
 	139590,		-- Scroll of Teleport: Ravenholdt
 	58487,		-- Potion of Deepholm
@@ -203,19 +161,14 @@ local scrolls = {
 
 local toys = {
 	93672,		-- Dark Portal
-	36954,		-- Dimensional Ripper - Area 52
 	23486,		-- Dimensional Ripper - Everlook
-	54452,		-- Ethereal Portal
 	64488,		-- Innkeeper's Daughter
 	95567,		-- Kirin Tor Beacon
 	95568,		-- Sunreaver Beacon
 	43824,		-- The Schools of Arcane Magic - Mastery
-	23489,		-- Ultrasafe Transporter - Gadgetzan
-	36955,		-- Ultrasafe Transporter - Toshley's Station
 	167075,		-- Ultrasafe Transporter: Mechagon
 	112059,		-- Wormhole Centrifuge
 	151652,		-- Wormhole Generator: Argus
-	48933,		-- Wormhole Generator: Northrend
 	87215,		-- Wormhole Generator: Pandaria
 	172924,		-- Wormhole Generator: Shadowlands
 	142542,		-- Tome of Town Portal (Diablo 3 event)
