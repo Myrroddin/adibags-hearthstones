@@ -174,6 +174,7 @@ if isMainline then
     db.Filters["hearthstones"].items[168907]    = true      -- Holographic Digitalization Hearthstone
     db.Filters["hearthstones"].items[169064]    = true      -- Montebank's Colorful Cloak
     db.Filters["hearthstones"].items[169297]    = true      -- Stormpike Insignia
+    db.Filters["hearthstones"].items[172179]    = true      -- Eternal Traveler's Hearthstone
     db.Filters["hearthstones"].items[172203]    = true      -- Cracked Hearthstone
     db.Filters["hearthstones"].items[172924]    = true      -- Wormhole Generator: Shadowlands
     db.Filters["hearthstones"].items[173373]    = true      -- Faol's Hearthstone
@@ -192,6 +193,12 @@ if isMainline then
     db.Filters["hearthstones"].items[184502]    = true      -- Attendant's Pocket Portal: Maldraxxus
     db.Filters["hearthstones"].items[184503]    = true      -- Attendant's Pocket Portal: Ardenweald
     db.Filters["hearthstones"].items[184504]    = true      -- Attendant's Pocket Portal: Oribos
+    db.Filters["hearthstones"].items[188952]    = true      -- Dominated Hearthstone
+    db.Filters["hearthstones"].items[190196]    = true      -- Enlightened Hearthstone
+    db.Filters["hearthstones"].items[190237]    = true      -- Broker Translocation Matrix
+    db.Filters["hearthstones"].items[193588]    = true      -- Timewalker's Hearthstone
+    db.Filters["hearthstones"].items[198156]    = true      -- Wyrmhole Generator
+    db.Filters["hearthstones"].items[200630]    = true      -- Ohn'ir Windsage's Hearthstone
 end
 
 -- return data to main file
