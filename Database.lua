@@ -179,6 +179,7 @@ if isMainline then
     db.Filters["hearthstones"].items[172924]    = true      -- Wormhole Generator: Shadowlands
     db.Filters["hearthstones"].items[173373]    = true      -- Faol's Hearthstone
     db.Filters["hearthstones"].items[173430]    = true      -- Nexus Teleport Scroll
+    db.Filters["hearthstones"].items[173532]    = true      -- Tirisfal Camp Scroll
     db.Filters["hearthstones"].items[173528]    = true      -- Gilded Hearthstone
     db.Filters["hearthstones"].items[173537]    = true      -- Glowing Hearthstone
     db.Filters["hearthstones"].items[173716]    = true      -- Mossy Hearthstone
