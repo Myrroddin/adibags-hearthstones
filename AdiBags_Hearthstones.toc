@@ -17,11 +17,12 @@
 ## Version: @project-version@
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
 ## X-Date: @project-date-iso@
-## X-License: © 2022 Paul "Myrroddin" Vandersypen, All Rights Reserved
+## X-License: Copyright © 2022 Paul Vandersypen. All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 ## X-Curse-Project-ID: 102083
 ## X-WoWI-ID: 24173
+## X-Wago-ID: 25NRRwN3
 
 Localization.lua
 Database.lua

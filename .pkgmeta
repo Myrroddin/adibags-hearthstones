@@ -4,6 +4,3 @@ enable-toc-creation: yes
 
 required-dependencies:
     - adibags
-
-ignore:
-    - supported_items.md

@@ -1,9 +1,9 @@
 --[[
 AdiBags_Hearthstones - Adds various hearthing items to AdiBags virtual groups
-© 2016 - 2021 Paul "Myrroddin" Vandersypen, All Rights Reserved
+Copyright © 2022 Paul Vandersypen, All Rights Reserved
 ]]--
 
-local addonName, addon = ...
+local _, addon = ...
 
 local L = setmetatable({}, {
 	__index = function(self, key)
