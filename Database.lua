@@ -112,6 +112,7 @@ if isMainline then
     db.Filters["hearthstones"].items[68808]     = true      -- Hero's Hearthstone
     db.Filters["hearthstones"].items[68809]     = true      -- Veteran's Hearthstone
     db.Filters["hearthstones"].items[87215]     = true      -- Wormhole Generator: Pandaria
+    db.Filters["hearthstones"].items[87548]     = true      -- Lorewalker's Lodestone
     db.Filters["hearthstones"].items[92510]     = true      -- Vol'jin's Hearthstone
     db.Filters["hearthstones"].items[93672]     = true      -- Dark Portal (MoP)
     db.Filters["hearthstones"].items[95050]     = true      -- The Brassiest Knuckle (Brawl'gar Arena)
@@ -121,6 +122,7 @@ if isMainline then
     db.Filters["hearthstones"].items[103678]    = true      -- Time-Lost Artifact
     db.Filters["hearthstones"].items[110560]    = true      -- Garrison Hearthstone
     db.Filters["hearthstones"].items[112059]    = true      -- Wormhole Centrifuge
+    db.Filters["hearthstones"].items[117389]    = true      -- Draenor Archaeologist's Lodestone
     db.Filters["hearthstones"].items[118662]    = true      -- Bladespire Relic
     db.Filters["hearthstones"].items[118663]    = true      -- Relic of Karabor
     db.Filters["hearthstones"].items[118907]    = true      -- Pit Fighter's Punching Ring (Bizmo's Brawlpub)

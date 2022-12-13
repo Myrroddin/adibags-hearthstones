@@ -5,7 +5,6 @@ Copyright © 2022 Paul Vandersypen, All Rights Reserved
 
 local _, addon = ...
 local AdiBags = LibStub("AceAddon-3.0"):GetAddon("AdiBags")
-local L = addon.L
 
 local db = addon.db
 
