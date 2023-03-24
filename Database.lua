@@ -199,6 +199,7 @@ if isMainline then
     db.Filters["hearthstones"].items[184503]    = true      -- Attendant's Pocket Portal: Ardenweald
     db.Filters["hearthstones"].items[184504]    = true      -- Attendant's Pocket Portal: Oribos
     db.Filters["hearthstones"].items[188952]    = true      -- Dominated Hearthstone
+    db.Filters["hearthstones"].items[189827]    = true      -- Cartel Xy's Proof of Initiation
     db.Filters["hearthstones"].items[190196]    = true      -- Enlightened Hearthstone
     db.Filters["hearthstones"].items[190237]    = true      -- Broker Translocation Matrix
     db.Filters["hearthstones"].items[193588]    = true      -- Timewalker's Hearthstone
