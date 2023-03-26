@@ -202,9 +202,12 @@ if isMainline then
     db.Filters["hearthstones"].items[189827]    = true      -- Cartel Xy's Proof of Initiation
     db.Filters["hearthstones"].items[190196]    = true      -- Enlightened Hearthstone
     db.Filters["hearthstones"].items[190237]    = true      -- Broker Translocation Matrix
+    db.Filters["hearthstones"].items[191029]    = true      -- Lilian's Hearthstone
     db.Filters["hearthstones"].items[193588]    = true      -- Timewalker's Hearthstone
-    db.Filters["hearthstones"].items[198156]    = true      -- Wyrmhole Generator
+    db.Filters["hearthstones"].items[198156]    = true      -- Wyrmhole Generator: Dragon Isles
     db.Filters["hearthstones"].items[200630]    = true      -- Ohn'ir Windsage's Hearthstone
+    db.Filters["hearthstones"].items[201957]    = true      -- Thrall's Hearthstone
+    db.Filters["hearthstones"].items[204481]    = true      -- Morqut Hearth Totem
 end
 
 -- return data to main file
