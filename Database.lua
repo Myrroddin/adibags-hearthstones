@@ -208,6 +208,7 @@ if isMainline then
     db.Filters["hearthstones"].items[200630]    = true      -- Ohn'ir Windsage's Hearthstone
     db.Filters["hearthstones"].items[201957]    = true      -- Thrall's Hearthstone
     db.Filters["hearthstones"].items[204481]    = true      -- Morqut Hearth Totem
+    db.Filters["hearthstones"].items[205255]    = true      -- Niffen Diggin' Mitts
 end
 
 -- return data to main file
