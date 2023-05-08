@@ -13,6 +13,7 @@
 ## Notes-zhTW: @localization(locale="zhTW", key="Notes", namespace="ToC")@
 ## Notes-itIT: @localization(locale="itIT", key="Notes", namespace="ToC")@
 ## Notes-frFR: @localization(locale="frFR", key="Notes", namespace="ToC")@
+## IconTexture: Interface\ICONS\Inv_misc_rune_01
 
 ## Version: @project-version@
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
