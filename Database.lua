@@ -51,7 +51,7 @@ if isWrath or isMainline then
     db.Filters["hearthstones"].items[29796]     = true      -- Socrethar's Teleportation Stone
     db.Filters["hearthstones"].items[32757]     = true      -- Blessed Medallion of Karabor
     db.Filters["hearthstones"].items[35230]     = true      -- Darnarian's Scroll of Teleportation
-    db.Filters["hearthstones"].items[36954]     = true      -- Dimensional Ripper - Area 52
+    db.Filters["hearthstones"].items[30542]     = true      -- Dimensional Ripper - Area 52
     db.Filters["hearthstones"].items[36955]     = true      -- Ultrasafe Transporter - Toshley's Station
     db.Filters["hearthstones"].items[37118]     = true      -- Scroll of Recall
     db.Filters["hearthstones"].items[37863]     = true      -- Direbrew's Remote
