@@ -133,6 +133,7 @@ if isMainline then
     db.Filters["hearthstones"].items[128502]    = true      -- Hunter's Seeking Crystal
     db.Filters["hearthstones"].items[128503]    = true      -- Master Hunter's Seeking Crystal
     db.Filters["hearthstones"].items[128353]    = true      -- Admiral's Compass
+    db.Filters["hearthstones"].items[129276]    = true      -- Beginner's Guide to Dimensional Rifting
     db.Filters["hearthstones"].items[132119]    = true      -- Orgrimmar Portal Stone
     db.Filters["hearthstones"].items[132120]    = true      -- Stormwind Portal Stone
     db.Filters["hearthstones"].items[132517]    = true      -- Intra-Dalaran Wormhole Generator
