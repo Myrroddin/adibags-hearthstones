@@ -208,6 +208,7 @@ if isMainline then
     db.Filters["hearthstones"].items[198156]    = true      -- Wyrmhole Generator: Dragon Isles
     db.Filters["hearthstones"].items[200630]    = true      -- Ohn'ir Windsage's Hearthstone
     db.Filters["hearthstones"].items[201957]    = true      -- Thrall's Hearthstone
+    db.Filters["hearthstones"].items[202046]    = true      -- Lucky Tortollan Charm
     db.Filters["hearthstones"].items[204481]    = true      -- Morqut Hearth Totem
     db.Filters["hearthstones"].items[205255]    = true      -- Niffen Diggin' Mitts
 end
