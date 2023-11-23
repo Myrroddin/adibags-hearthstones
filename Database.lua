@@ -172,7 +172,7 @@ if isMainline then
     db.Filters["hearthstones"].items[165802]    = true      -- Noble Gardener's Hearthstone
     db.Filters["hearthstones"].items[166746]    = true      -- Fire Eater's Hearthstone
     db.Filters["hearthstones"].items[166747]    = true      -- Brewfest Reveler's Hearthstone
-    db.Filters["hearthstones"].items[167065]    = true      -- Ultrasafe Transporter: Mechagon
+    db.Filters["hearthstones"].items[167075]    = true      -- Ultrasafe Transporter: Mechagon
     db.Filters["hearthstones"].items[168807]    = true      -- Wormhole Generator: Kul Tiras
     db.Filters["hearthstones"].items[168808]    = true      -- Wormhole Generator: Zandalar
     db.Filters["hearthstones"].items[168862]    = true      -- G.E.A.R. Tracking Beacon
