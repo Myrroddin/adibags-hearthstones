@@ -211,6 +211,7 @@ if isMainline then
     db.Filters["hearthstones"].items[202046]    = true      -- Lucky Tortollan Charm
     db.Filters["hearthstones"].items[204481]    = true      -- Morqut Hearth Totem
     db.Filters["hearthstones"].items[205255]    = true      -- Niffen Diggin' Mitts
+    db.Filters["hearthstones"].items[211788]    = true      -- Tess's Peacebloom
 end
 
 -- return data to main file
