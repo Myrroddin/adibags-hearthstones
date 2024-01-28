@@ -18,7 +18,7 @@
 ## Version: @project-version@
 ## Author: Sygon of Lightbringer-US (Crimson Embers, Alliance)
 ## X-Date: @project-date-iso@
-## X-License: Copyright © 2023 Paul Vandersypen. All Rights Reserved
+## X-License: Copyright © 2024 Paul Vandersypen. All Rights Reserved
 ## X-Category: Bags & Inventory
 ## Dependencies: AdiBags
 ## X-Curse-Project-ID: 102083
