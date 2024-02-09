@@ -211,6 +211,8 @@ if isMainline then
     db.Filters["hearthstones"].items[202046]    = true      -- Lucky Tortollan Charm
     db.Filters["hearthstones"].items[204481]    = true      -- Morqut Hearth Totem
     db.Filters["hearthstones"].items[205255]    = true      -- Niffen Diggin' Mitts
+    db.Filters["hearthstones"].items[205456]    = true      -- Lost Dragonscale (1)
+    db.Filters["hearthstones"].items[205458]    = true      -- Lost Dragonscale (2)
     db.Filters["hearthstones"].items[211788]    = true      -- Tess's Peacebloom
 end
 
