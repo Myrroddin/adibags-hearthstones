@@ -69,3 +69,6 @@ end
 
 -- start here
 AllFilters(db)
+AdiBags:Print("AdiBags_Hearthstones is deprecated and will get no new feature releases.")
+AdiBags:Print("Please consider switching to the successor, BetterBags_Hearthstones.")
+AdiBags:Print("BetterBags_Hearthstones is available at Curse, Wago, and Wowinterface")

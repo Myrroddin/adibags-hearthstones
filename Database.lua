@@ -159,7 +159,6 @@ if isMainline then
     db.Filters["hearthstones"].items[144392]    = true      -- Pugilist's Powerful Punching Ring (Horde)
     db.Filters["hearthstones"].items[150733]    = true      -- Scroll of Town Portal (Ar'gorok in Arathi)
     db.Filters["hearthstones"].items[151652]    = true      -- Wormhole Generator: Argus
-    db.Filters["hearthstones"].items[158897]    = true      -- Improved Flight Master's Whistle
     db.Filters["hearthstones"].items[159224]    = true      -- Zuldazar Hearthstone
     db.Filters["hearthstones"].items[160219]    = true      -- Scroll of Town Portal (Stromgarde in Arathi)
     db.Filters["hearthstones"].items[162973]    = true      -- Greatfather Winter's Hearthstone
